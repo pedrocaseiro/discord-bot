@@ -37,7 +37,6 @@ func main() {
   }
 
   fmt.Println("Bot is now running. Press CTRL-C to exit.")
-  discordGo.Close()
   <-make(chan struct{})
   return
 }
